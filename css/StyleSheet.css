@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+/* CSS Document */
+	
+html
+{
+    font-family: Arial;
+}
+
+body
+{
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color:#0059ed;
+    font-family: Arial;
+	font-size: 14px;
+}
+
+p {color:#0059ed; font-size:14px; line-height:15px;}
+p a {text-decoration:underline; color:#0059ed;}
+p a:hover {text-decoration:underline; color:#0059ed;}
+
+a
+{
+    color:#0059ed;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#0059ed;
+    text-decoration:underline;
+}
+
+h1
+{
+    font-size:24px;
+    color:#000000;
+    padding:0px;
+    margin:0px;
+}
+
+h2
+{
+    font-size:16px;
+    padding:0px;
+    margin:0px;
+}
+
+#page-container
+{
+	position:relative;
+    width:810px;
+	margin: 0 auto;
+    background-color: transparent;
+}
+
+.highlight
+{
+    color:#ffa11b;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.highlight2
+{
+    color:#fdd9b0;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+/************************* Registration ***********************************************/
+
+input[type=text]
+{
+    width:340px;
+    height:22px;
+    border:1px solid #9292a9;
+    font-size:18px;
+    color:#9292a9;
+    padding:2px;
+}
+
+input[type=password]
+{
+    width:340px;
+    height:22px;
+    border:1px solid #9292a9;
+    font-size:18px;
+    color:#9292a9;
+    padding:2px;
+}
+
+textarea
+{
+    font-size:18px;
+}
+
+select
+{
+	font-size:18px;
+}
+
+.formlabel
+{
+    font-size:18px;
+    font-weight:bold;
+    color:#0059ed;
+}

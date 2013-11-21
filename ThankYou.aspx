@@ -1,0 +1,3 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ThankYou.aspx.cs" Inherits="HerbalIce.ThankYou" %>
+
+<a href="#" onclick="return Facebook.post('<% = utils.FacebookPageUrl + "/?sk=app_" + utils.FacebookAppID %>', '<% = utils.SiteUrl %>/images/enter.jpg', 'Herbal Ice Cool It Off Photo Content', '', 'Upload a picture of yourself with Herbal Ice or enter the on pack barcode for an entry into the grand prize of R20,000. Like, Comment and Share the posts on our news feed to stand a chance of winning more prizes.', null , function(response) {  });"><img src="<% = utils.SiteUrl %>/images/thankyou.jpg" width="810" height="531" border="0" alt="" /></a>
